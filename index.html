@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Courty, your Basketball Analyst!</h1>
+        <form action="/ask" method="post">
+            <label for="question">Ask a question about basketball:</label><br><br>
+            <input type="text" id="question" name="question" required><br><br>
+            <input type="submit" value="Ask">
+        </form>
+        <h2>Response:</h2>
+        <p id="response">{{ response }}</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001f3f; /* Navy Blue Background */
+    color: #f4f4f4; /* Light color for text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff; /* White background for the container */
+    color: #001f3f; /* Navy blue color for the text inside the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    color: #001f3f; /* Light color for the main header */
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label, input[type="text"] {
+    color: #001f3f; /* Navy blue for form text and input text */
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #f4f4f4; /* Light color for button background */
+    color: #001f3f; /* Navy blue color for button text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e0e0e0; /* Slightly darker background on hover */
+}
+
+h2 {
+    margin-top: 20px;
+    color: #001f3f; /* Light color for the secondary header */
+}
+
+p#response {
+    font-weight: bold;
+    color: #001f3f; /* Navy blue color for response text */
+    background-color: #8ba0b7;; /* Light green background for response */
+    padding: 10px;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #f4f4f4; /* Light color for button background */
+    color: #001f3f; /* Navy blue color for button text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+input[type="submit"]:hover {
+    background-color: #e0e0e0; /* Slightly darker background on hover */
+}
+
+input[type="submit"]:active {
+    background-color: #001f3f; /* Change background color on click */
+    color: #ffffff; /* Change text color on click */
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+    transform: translateX(10px); /* Move button to the right on click */
+}
