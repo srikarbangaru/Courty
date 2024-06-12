@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basketball Chatbot</title>
+    <title>Courty</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Courty, your Basketball Analyst!</h1>
+        <h1>Hi, I am <span class="gradient-text">Courty!</span></h1>
         <form action="/ask" method="post">
-            <label for="question">Ask a question about basketball:</label><br><br>
+            <label for="question">Ask me a question about <span class="word-slider">
+                <span>Basketball</span>
+                <span>Statistics</span>
+                <span>Players</span>
+                <span>Teams</span>
+            </span>:
+            </label><br><br>
             <input type="text" id="question" name="question" required><br><br>
             <input type="submit" value="Ask">
         </form>

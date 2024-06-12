@@ -1,7 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #001f3f; /* Navy Blue Background */
-    color: #f4f4f4; /* Light color for text */
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #001f3f;
+    color: #f4f4f4;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-    background-color: #ffffff; /* White background for the container */
-    color: #001f3f; /* Navy blue color for the text inside the container */
+    background-color: #ffffff;
+    color: #001f3f;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -22,8 +22,50 @@ body {
 }
 
 h1 {
-    color: #001f3f; /* Light color for the main header */
+    color: #001f3f;
     margin-bottom: 20px;
+}
+
+h1 .gradient-text {
+    background: linear-gradient(270deg, #1e90ff, #001f3f, #1e90ff);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 3s linear infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.word-slider {
+    display: inline-block;
+    height: 1.25em;
+    overflow: hidden;
+    vertical-align: bottom;
+    font-weight: bold;
+}
+
+.word-slider span {
+    display: block;
+    position: relative;
+    animation: roll 10s ease infinite;
+}
+
+@keyframes roll {
+    0%, 16.67% { top: 0; }
+    25%, 41.67% { top: -1.25em; }
+    50%, 66.67% { top: -2.5em; }
+    75%, 91.67% { top: -3.75em; }
+    100% { top: 0; }
 }
 
 form {
@@ -31,7 +73,7 @@ form {
 }
 
 label, input[type="text"] {
-    color: #001f3f; /* Navy blue for form text and input text */
+    color: #001f3f;
 }
 
 input[type="text"] {
@@ -43,48 +85,36 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    background-color: #f4f4f4; /* Light color for button background */
-    color: #001f3f; /* Navy blue color for button text */
+    background-color: #f4f4f4;
+    color: #001f3f;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
 }
 
 input[type="submit"]:hover {
-    background-color: #e0e0e0; /* Slightly darker background on hover */
+    background-color: #e0e0e0;
+}
+
+input[type="submit"]:active {
+    background-color: #001f3f;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+    transform: translateX(10px);
 }
 
 h2 {
     margin-top: 20px;
-    color: #001f3f; /* Light color for the secondary header */
+    color: #001f3f;
 }
 
 p#response {
     font-weight: bold;
-    color: #001f3f; /* Navy blue color for response text */
-    background-color: #8ba0b7;; /* Light green background for response */
+    color: #001f3f;
+    background-color: #8ba0b7;
     padding: 10px;
     border-radius: 4px;
-}
-
-input[type="submit"] {
-    background-color: #f4f4f4; /* Light color for button background */
-    color: #001f3f; /* Navy blue color for button text */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth transition for background color */
-}
-
-input[type="submit"]:hover {
-    background-color: #e0e0e0; /* Slightly darker background on hover */
-}
-
-input[type="submit"]:active {
-    background-color: #001f3f; /* Change background color on click */
-    color: #ffffff; /* Change text color on click */
-    transition: transform 0.3s ease; /* Smooth transition for transform */
-    transform: translateX(10px); /* Move button to the right on click */
 }
