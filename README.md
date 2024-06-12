@@ -1,13 +1,15 @@
 # Courty - Transforming Sports Analytics with Generative AI
 
-Welcome to Courty! Courty is an innovative Flask-based web application that transforms sports analytics using the power of Generative AI. This repository contains the source code and resources for Courty, designed to provide detailed insights and answers to questions about basketball, statistics, players, and teams.
+Welcome to Courty! Courty is a new, Flask-based web-application that transforms sports analytics using the power of Generative AI. This repository contains the source code and resources for Courty, designed to provide detailed insights and answers to questions about basketball, statistics, players, and teams.
 
-# Features
+# Features & Technologies
 
-Generative AI Integration: Leverages Google's Gemini 1.5 Model to analyze and interpret sports data.
-Comprehensive Insights: Provides detailed analytics and answers to user queries about various aspects of basketball.
-User-Friendly Interface: Easy-to-use interface for asking questions and receiving insights.
-Real-time Analysis: Delivers quick and accurate responses, making it an essential tool for sports enthusiasts and analysts.
+Courty leverages several advanced technologies to provide a comprehensive sports analytics platform:
+
+Generative AI: Utilizes Google's Gemini 1.5 API to call-for, analyze, and interpret sports data.
+Python: The primary programming language for backend development.
+Flask: The web framework used to build the Courty web application.
+HTML, CSS, JavaScript: For building the user interface, including animations and interactivity.
 
 # Prerequisites
 
