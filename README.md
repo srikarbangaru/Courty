@@ -16,7 +16,7 @@ Courty leverages several advanced technologies to provide a comprehensive sports
 Ensure you have the following installed:
 - Python 3.7 or higher
 - Flask
-- Installation
+- Google.generativeai
 
 Clone the repository:
   git clone https://github.com/sbangaru18/courty.git
