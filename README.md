@@ -19,7 +19,7 @@ Ensure you have the following installed:
 - Installation
 
 Clone the repository:
-  git clone https://github.com/yourusername/courty.git
+  git clone https://github.com/sbangaru18/courty.git
   cd courty
 
 Install the required Python packages:
@@ -31,8 +31,8 @@ Run the application:
 
 # Usage
 
-Ask a Question: Enter your basketball-related question in the input field and click "Ask".
-Receive Insights: Courty will analyze your query and provide detailed insights and responses.
+- Ask a Question: Enter your basketball-related question in the input field and click "Ask".
+- Receive Insights: Courty will analyze your query and provide detailed insights and responses.
 
 # Contributing
 
