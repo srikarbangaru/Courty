@@ -6,10 +6,10 @@ Welcome to Courty! Courty is a new, Flask-based web-application that transforms 
 
 Courty leverages several advanced technologies to provide a comprehensive sports analytics platform:
 
-Generative AI: Utilizes Google's Gemini 1.5 API to call-for, analyze, and interpret sports data.
-Python: The primary programming language for backend development.
-Flask: The web framework used to build the Courty web application.
-HTML, CSS, JavaScript: For building the user interface, including animations and interactivity.
+- Generative AI: Utilizes Google's Gemini 1.5 API to call-for, analyze, and interpret sports data.
+- Python: The primary programming language for backend development.
+- Flask: The web framework used to build the Courty web application.
+- HTML, CSS, JavaScript: For building the user interface, including animations and interactivity.
 
 # Prerequisites
 
